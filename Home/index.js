@@ -1,17 +1,24 @@
-const input = document.getElementById("input")
+const display = document.getElementById("input")
+let displayValue = "";
 
-console.log(input.value)
 
 const plusbnt = document.getElementById('plus')
 console.log(plusbnt)
 const minusbnt = document.getElementById('minus')
 console.log(minusbnt)
-const timesbnt = document.getElementById('multnum')
+const multsbnt = document.getElementById('multnum')
+console.log(multsbnt)
+const onebnt = document.getElementById('one')
+console.log(onebnt)
+const twobnt = document.getElementById('two')
+console.log(twobnt)
+const equalbnt = document.getElementById('equal')
+console.log(equalbnt)
 //  NORMAL
-function hellowolrd(name ){
- return `hello , ${name}`
+//function hellowolrd(name ){
+ //return `hello , ${name}`
 
-}
+
 // //  VAR FUNC
 // const helloWolrd2 = function(name){
 //    return `hello , ${name}`  
@@ -51,29 +58,67 @@ function hellowolrd(name ){
 //     float c, fh; 
 //  }
 
- let inputval=0
- function addnum () {
-   inputval+=1
-   return inputval
- }
- plusbnt.addEventListener('click', ()=>{
-   input.value=addnum()
+ //let inputval=0
+ //function addnum () {
+   //inputval+=1
+   //return inputval
+ //}
+ //plusbnt.addEventListener('click', ()=>{
+   //input.value=addnum()
    
- })
- function subnum () {
-   inputval-=1
-   return inputval
- }
- minusbnt.addEventListener('click', ()=>{
-   input.value=subnum ()
- } )
+ //})
+ //function subnum () {
+   //inputval-=1
+   //return inputval
+ //}
+ //minusbnt.addEventListener('click', ()=>{
+   //input.value=subnum ()
+ //} )
 
- function multnum (){
-   inputval*=2
-   return inputval
- }
- timesbnt.addEventListener('click', ()=>{
-   input.value=multnum()
- })
+ //function multnum (){
+   //inputval+=2
+   //return inputval
+ //}
+ //timesbnt.addEventListener('click', ()=>{
+   //input.value=multnum()
+ //})
+
+ plusbnt.addEventListener ('click',
+  function () {
+    displayValue += '+'
+    display.value = displayValue
+  }
+ )
+ minusbnt.addEventListener ('click',
+  function () {
+    displayValue += '-'
+    display.value = displayValue
+  }
+ )
+ multnum.addEventListener ('click',
+  function () {
+    displayValue += '*'
+    display.value = displayValue
+  }
+ )
+onebnt.addEventListener ('click',
+  function () {
+    displayValue += '1'
+    display.value = displayValue
+  }
+)
+twobnt.addEventListener ('click',
+  function () {
+    displayValue += '2'
+    display.value = displayValue
+  }
+)
+equalbnt.addEventListener ('click',
+  function () {
+    displayValue = 
+    eval(displayValue)
+    display.value = displayValue
+  }
+)
 
  

@@ -1,0 +1,285 @@
+.container {
+    display: flex;
+    background-color: rgb(250, 249, 247);
+    width: 100%;
+    height: 100vh;
+    /*border: solid ;*/
+}
+/*.subcontainer {
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+}*/
+.aside {
+    background-color: blue;
+    width: 250px;
+    height: 94vh;
+    padding: 20px;
+}
+.aside H2 {
+    color: white;
+    font-size: 40PX;
+    font-family: sans-serif;
+
+}
+.dash {
+    display: flex;
+    /*border: solid;*/
+    background-color: rgb(70, 70, 243);
+}
+.subcontainer h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #f0ecec;
+    text-transform: uppercase;
+    text-align: left;
+}
+.aside ul {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 3;
+    color: white;
+}
+
+.middle-container {
+    background-color: rgb(230, 225, 225);
+    display: flex;
+   /* border: solid;*/
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+
+}
+.box1 {
+    display: flex;
+    background-color: white;
+  
+   margin-left: 30px;
+   height: 100px;
+   width: 250px;
+
+}
+.name {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 20%;
+
+}
+.name h2 {
+    font-size: 40px;
+   
+    font-family: sans-serif;
+
+}
+.mainBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.oneBox {
+    margin-left: 10px;
+    margin-bottom: 8px;
+    background-color: white;
+}
+.oneBox p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.box2 {
+    display: flex;
+    margin-left: 8px;
+    
+    height: 100px;
+   width: 250px;
+   background-color: white;
+
+}
+
+.twoBox p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 8px;
+    font-weight: 700;
+
+}
+.box3 {
+    display: flex;
+    margin-left: 8px;
+    
+    height: 100px;
+   width: 250px;
+   background-color: white;
+
+}
+.threeBox p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 8px;
+    font-weight: 700;
+}
+
+.moneySend {
+    
+    height: 190px;
+   width: 200px; 
+   margin-right: 8px;
+   background-color: white;
+   margin-left: 30px;
+
+
+}
+
+.sendMOney {
+    display: flex;
+   flex-direction: column;
+   font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: 700; 
+    padding: 20px;
+    
+}
+.sendMOney button {
+    padding: 10px;
+    color: blue;
+}
+.bnt {
+    display: flex;
+    border: solid 2px blue;
+   /* padding: 2px;*/
+   color: blue;
+   font-weight: 500;
+}
+.bnt1 {
+    display: flex;
+    border: solid 2px blue;
+    margin-top: 5px;
+    color: blue;
+    font-weight: 500;
+}
+.bnt2 {
+        display: flex;
+    border: solid 2px blue;
+    margin-top: 5px;
+    color: blue;
+    font-weight: 500;
+}
+.containerAmount {
+    display: flex;
+    background-color: rgb(248, 247, 247);
+    height: 1500px;
+    width: 800px;
+    margin: 30px;
+    margin-top: 5px;
+    
+}
+
+.topPart {
+    display: flex;
+    
+    height: 150px;
+    width: 80%;
+     flex-direction: column;
+    
+
+}
+.topPart p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+    padding: 2px;
+    color: rgb(15, 15, 15);
+   
+
+}
+
+.subTop {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.line {
+    display: block;
+    
+}
+.line li {
+    list-style: none;
+    
+    font-family: sans-serif;
+    font-weight: 700;
+   
+    padding: 1px;
+    margin-left: 10px;
+}
+
+.lineD {
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 9px;
+
+}
+.lineTwo li {
+    list-style: none;
+    padding: 1px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 2px;
+
+}
+.lineO {
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 4px;
+}
+
+.lineE {
+   font-weight: 800;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 1px; 
+}
+.lineThree li {
+   list-style: none;
+    padding: 3px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 4px; 
+}
+
+.lineFour li {
+    list-style: none;
+    padding: 3px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 4px; 
+    
+}
+
+.lineA {
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 4px;
+}
