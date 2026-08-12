@@ -24,8 +24,10 @@
 }
 .dash {
     display: flex;
-    /*border: solid;*/
+    border-radius: 20px;
     background-color: rgb(70, 70, 243);
+    padding-left: 20px;
+    align-items: center;
 }
 .subcontainer h2 {
     font-size: 30px;
@@ -55,10 +57,10 @@
 }
 .box1 {
     display: flex;
-    background-color: white;
+    background-color: rgb(250, 248, 248);
   
    margin-left: 30px;
-   height: 100px;
+   height: 180px;
    width: 250px;
 
 }
@@ -86,28 +88,33 @@
     font-size: 20px;
     text-transform: uppercase;
 }
-.oneBox {
-    margin-left: 10px;
-    margin-bottom: 8px;
-    background-color: white;
-}
+
 .oneBox p {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 700;
+    padding-left: 15px;
     
 }
+
+.oNe  {
+    padding-top: 50px;
+    font-weight: 900;
+} 
 
 .box2 {
     display: flex;
     margin-left: 8px;
     
-    height: 100px;
+    height: 180px;
    width: 250px;
-   background-color: white;
+   background-color: rgb(252, 249, 249);
 
 }
 
+.tWo p {
+    padding-top: 50px;
+}
 .twoBox p {
     font-family: sans-serif;
     font-size: 20px;
@@ -119,10 +126,15 @@
     display: flex;
     margin-left: 8px;
     
-    height: 100px;
+    height: 180px;
    width: 250px;
-   background-color: white;
+   background-color: rgb(247, 246, 246);
 
+}
+.tThree p {
+    padding-top: 60px;
+   /* justify-content: center;
+    align-content: center;*/
 }
 .threeBox p {
     font-family: sans-serif;
@@ -136,7 +148,7 @@
     height: 190px;
    width: 200px; 
    margin-right: 8px;
-   background-color: white;
+   background-color: rgb(247, 244, 244);
    margin-left: 30px;
 
 
@@ -282,4 +294,29 @@
     font-size: 20px;
     text-transform: uppercase;
     padding: 4px;
+}
+.zoinOne {
+    display: flex;
+    background-color: rgb(248, 247, 247);
+    
+    flex-direction: column;
+    gap: 90px;
+    justify-content: center;
+    align-content: center;
+}
+.inPuto {
+    display: flex;
+    height: 30px;
+}
+.clAssi {
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    height: 25px;
+}
+.addDu {
+    display: flex;
+    height: 25px;
+    width: fit-content;
 }

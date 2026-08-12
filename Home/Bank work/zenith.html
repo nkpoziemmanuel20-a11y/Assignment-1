@@ -8,13 +8,13 @@
 </head>
 <body>
     <!--The big container-->
-   <div class="container">
+   <div class="container" id="container">
      <!--the side bar (to the left side of bar)-->
-     <div class="subContiainer">
+     <div class="subContiainer" id="subContainer">
      <aside class="aside">
       <h2>FLEXBANK</h2>
       <ul>
-         <div class="dash"><li>Dashboard</li></div>
+         <div class="dash" id="dash"><li>Dashboard</li></div>
          <li>Accounts</li>
          <li>Transfers</li>
          <li>Payments</li>
@@ -24,60 +24,68 @@
      </aside>
      </div>
      <!--The middle container-->
-     <div class="middle-container">
-        <div class="name">
-             <h2>Welcome, Nkpozi Emmanuel</h2>
+     <div class="middle-container" id="middleContainer">
+        <div class="name" id="name">
+             <h2><div class="welcomeName" id="welcomeName">Welcome, Nkpozi Emmanuel</div></h2>
 
         </div>
-       <div class="mainBox">
+       <div class="mainBox" id="mainbox">
          <div class="box1">
-            <div class="oneBox">
+            <div class="oneBox" id="onebox">
              <p>Account Balance</p>
-             <P>$12,450.78</P>
+             <div class="oNe" id="oNe"><P>$12,450.78</P></div>
              </div>
          </div>
-         <div class="box2">
-            <div class="twoBox">
+         <div class="box2" id="boxtwo">
+            <div class="twoBox" id="twoBox">
              <P>Recent Savings</P>
-             <p>Saved: $1,200</p>
+             <div class="tWo" id="tWo"><p>Saved: $1,200</p></div>
             </div>
          </div>
-         <div class="box3">
-            <div class="threeBox">
+         <div class="box3" id="boxthree">
+            <div class="threeBox" id="threeBox">
              <p>Card Status</p>
-             <p>Active</p>
+             <div class="tThree" id="tThree"><p>Active</p></div>
              </div>
          </div>
         
-         <div class="moneySend">
-            <div class="sendMOney">
+         <div class="moneySend" id="moneySend">
+            <div class="sendMOney" id="sendMoney">
               <p>Quick Actions</p>
-              <div class="bnt"> Send Money</div>
-              <div class="bnt1"> Deposit Check</div>
-              <div class="bnt2">  Statement</div> 
+              <div class="bnt" id="bntOne"> Send Money</div>
+             <a href="work.html"> <div class="bnt1" id="bntTwo"> Deposit Check</div></a>
+              <div class="bnt2" id="bntThree">  Statement</div> 
             </div>
             </div>
+           <!-- <div class="zoinOne">
+                <div class="inPuto">
+                    <input type="number">
+                </div>
+                <div class="clAssi">
+                    <button class="addDu">Add Fund </button>
+                </div>
+            </div> -->
         </div>
 
         <!--This is the contianer in the Recent transaction-->
         
-        <div class="containerAmount">
-            <div class="topPart">
+        <div class="containerAmount" id="containAmount">
+            <div class="topPart" id="topPart">
                 <p>Recent Transaction</p>
              
-                <div class="subTop">
-                   <div class="line">
-                    <div class="lineD"> <th>Date</th></div>
-                        <li>Oct 15</li>
-                        <li>Oct 14</li>
-                        <li>Oct 13</li>
-                        <li>Oct 12</li>
-                        <li>Oct 11</li>
-                        <li>Oct 10</li>
+                <div class="subTop" id="subTop">
+                   <div class="line" id="line">
+                    <div class="lineD" id="lineD"> <th>Date</th></div>
+                        <div class="" id="octA"><li>Oct 15</li></div>
+                        <div class="" id="octB"><li>Oct 14</li></div>
+                        <div class="" id="octC"><li>Oct 13</li></div>
+                        <div class="" id="octD"><li>Oct 12</li></div>
+                        <div class="" id="octE"><li>Oct 11</li></div>
+                        <!--<li>Oct 10</li>-->
                      
                     </div>
-                    <div class="lineTwo">
-                     <div class="lineO"> <th>Description</th> </div>
+                    <div class="lineTwo" id="lineTwo">
+                     <div class="lineO" id="lineO"> <th>Description</th> </div>
                         <li>Amazon</li>
                         <li>Baddlewade</li>
                         <li>Texas</li>
@@ -85,7 +93,7 @@
                         <li>Credings</li>
                       
                     </div> 
-                    <div class="lineThree">
+                    <div class="lineThree" id="lineThree">
                      <div class="lineE"><th>Category</th></div>
                         <li>Shopping</li>
                         <li>Call</li>
@@ -94,8 +102,8 @@
                         <li>Shopping</li>
                      
                     </div> 
-                    <div class="lineFour">
-                     <div class="lineA"><th>Amount</th></div> 
+                    <div class="lineFour" id="lineFour">
+                     <div class="lineA" id="lineA"><th>Amount</th></div> 
                         <li>-$54.99</li>
                         <li>-$16.99</li>
                         <li>-$52.77</li>
