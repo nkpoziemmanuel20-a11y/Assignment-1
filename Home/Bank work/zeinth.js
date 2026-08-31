@@ -1,6 +1,6 @@
 const bankUsers = [
   {
-    accountName: "Ecfunachukwu Spenzy",
+    accountName: "Echefunachukwu Spenzy",
     totalBalance: 850000,
     expenditure: [
       {
